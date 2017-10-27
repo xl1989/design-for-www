@@ -1,0 +1,55 @@
+body{
+    position:relative;
+}
+#header{
+    position:fixed;
+    font-family: 'Trocchi', sans-serif;
+    width:100%;
+    height:200px;
+    background-color: white;
+    border-color: aquamarine;
+    text-align: center;
+    color: dimgray;
+}
+#boder{
+    width:45%;
+    margin:0 auto;
+    border-style:solid;
+    border-color:dimgray;
+    margin-top: 30px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+aside{
+    margin-top: 300px;
+    float:left;
+    width:100px;
+    height:300px;
+     border-style:solid;
+    border-color:whitesmoke;
+}
+nav{
+    margin-top: 70px;
+}
+ul{
+    padding-left: 30px;
+}
+#gallery{
+    padding-top:300px;
+    padding-left: 200px;
+    
+}
+.item{
+    float:left;
+    padding:50px;
+}
+footer{
+    clear:both;
+    text-align: center;
+}
