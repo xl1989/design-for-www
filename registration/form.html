@@ -1,0 +1,52 @@
+<html>
+	<head></head>
+	<body>
+		
+		<h1>New Member Registration</h1>
+		<form id="registration_form" action="confirmation.html" method="GET" >
+			
+			<fieldset>
+				<legend>Info</legend>
+				<label for="username">User Name</label>
+				<input name="username" placeholder="username" id="username" type="text">
+				<br>
+                <br/>
+                <label for="age">Age</label>
+				<input name="age" placeholder="age" id="age" type="numbers">
+				<br>
+                <br/>
+                <label>Gender</label><input name="gender"  id="male" value="male" type="radio"><label for="male">Male</label>
+                <input name="gender"  id="female" value="female" type="radio"><label for="female">Female</label>
+				
+				<br>
+                <br/>
+                <label for="address">Addres</label>
+				<input name="address" placeholder="address" id="address" type="text">
+				<br>
+                <br/>
+				<label for="password">Password</label>
+				<input name="password" placeholder="password" id="password" type="password">
+				<br>
+                <br/>
+				<label for="password">Confirm Password</label>
+				<input name="confirm" placeholder="confirm password" id="confirm" type="password">
+			</fieldset>			
+	
+			<fieldset>
+				<legend>Skill Level</legend>
+				<ul>
+					<li><input name="SkillLevel" id="ra1" type="radio" value="Beginner"><label for="ra1">Beginner</label></li>
+					<li><input name="SkillLevel" id="ra2" value="Advanced Beginner" type="radio"><label for="ra2">Advanced Beginner</label></li>
+					<li><input name="SkillLevel" value="Intermediate" id="ra3" type="radio"><label for="ra3">Intermediate</label></li>
+					<li><input name="SkillLevel" value="Intermediate Adv" id="ra4" type="radio"><label for="ra4">Intermediate Adv</label></li>
+				    <li><input name="SkillLevel" value="Advanced" id="ra5" type="radio"><label for="ra5">Advanced</label></li>
+                </ul>
+			</fieldset>
+
+			<input id="submit" type="submit" value="Register">
+
+		</form>
+<script src="form.js"></script>
+		
+	</body>
+</html>
